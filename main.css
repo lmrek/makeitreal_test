@@ -1,0 +1,37 @@
+body {
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 16px;
+}
+p {
+    margin: 0;
+}
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+.content {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    margin-left: 40%;
+    margin-top: 20%;
+}
+.content img {
+    border: 5px solid white;
+    border-radius: 50%;
+    width: 200px;
+}
+.name-profile {
+    color: whitesmoke;
+    font-family: 'Shadows Into Light', sans-serif;
+    font-size: 1.5rem;
+    margin-top: 50px;
+}
+.address-profile {
+    color: whitesmoke;
+    font-family: Helvetica, sans-serif;
+    font-size: 1rem;
+}
